@@ -54,7 +54,7 @@ inquirer
 
 const pageContent = (response) => 
 `# ${response.project}
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-yellow.svg)](https://opensource.org/licenses/${response.license})
 
 ## Description
 ${response.description}
