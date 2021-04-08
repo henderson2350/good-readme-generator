@@ -54,16 +54,20 @@ inquirer
 
 const pageContent = (response) => 
 `# ${response.project}
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 ${response.description}
 
-# Table of Contents
+## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [License] (#license)
+4. [Contributing] (#contributing)
 4. [Tests] (#tests)
 5. [Questions] (#questions)
+
+## Installation
 
 ## Usage
 ${response.usage}
@@ -77,6 +81,6 @@ ${response.contributors}
 ## Tests
 
 ## Questions
-For more information contact me:
-GitHub: https://github.com/${response.username}
-My email: ${response.email}`
+# For more information contact me:
+- GitHub: https://github.com/${response.username}  
+- My email: ${response.email}`
