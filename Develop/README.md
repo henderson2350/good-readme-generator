@@ -7,10 +7,10 @@ asdf
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [License] (#license)
-4. [Contributing] (#contributing)
-4. [Tests] (#tests)
-5. [Questions] (#questions)
+3. [License](#license)
+4. [Contributing](#contributing)
+4. [Tests](#tests)
+5. [Questions](#questions)
 
 ## Installation
 
@@ -27,5 +27,5 @@ asdf
 
 ## Questions
 # For more information contact me:
-- GitHub: https://github.com/sdaf  
+- GitHub: https://github.com/clare  
 - My email: asdf
