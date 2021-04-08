@@ -63,41 +63,76 @@ const pageContent = (response) => {
     if (response.license === "MIT") {
         var licenseLink = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
         
-        return `# ${response.project} hello
+        return `# ${response.project}
+${licenseLink}
 
-        # hello
+## Description
+${response.description}
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+4. [Tests](#tests)
+5. [Questions](#questions)
+
+## Installation
+${response.installation}
+
+## Usage
+${response.usage}
+
+## License
+License type: ${response.license}
+
+## Contributing
+${response.contributors}
+
+## Tests
+
+## Questions
+For more information contact me:
+- [GitHub](https://github.com/${response.username})  
+- My email: ${response.email}`
+    }
+
+    if (response.license === "APACE 2.0") {
+        var licenseLink = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
         
-        ## Description
-        ${response.description}
-    
-        ## Table of Contents
-        1. [Installation](#installation)
-        2. [Usage](#usage)
-        3. [License](#license)
-        4. [Contributing](#contributing)
-        4. [Tests](#tests)
-        5. [Questions](#questions)
-    
-        ## Installation
-        ${response.installation}
-    
-        ## Usage
-        ${response.usage}
-    
-        ## License
-        License type: ${response.license}
-    
-        ## Contributing
-        ${response.contributors}
-    
-        ## Tests
-    
-        ## Questions
-        For more information contact me:
-        - GitHub: https://github.com/${response.username}  
-        - My email: ${response.email}
-        ${licenseLink}`
+        return `# ${response.project}
+${licenseLink}
+
+## Description
+${response.description}
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+4. [Tests](#tests)
+5. [Questions](#questions)
+
+## Installation
+${response.installation}
+
+## Usage
+${response.usage}
+
+## License
+License type: ${response.license}
+
+## Contributing
+${response.contributors}
+
+## Tests
+
+## Questions
+For more information contact me:
+- [GitHub](https://github.com/${response.username})  
+- My email: ${response.email}`
     }
-    }
+}
 
 
