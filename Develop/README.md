@@ -1,8 +1,8 @@
 # asdf
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+undefined
 
 ## Description
-sdf
+asdf
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -18,14 +18,14 @@ sdf
 asdf
 
 ## License
-License type: 
+License type: MIT
 
 ## Contributing
-df
+asdf
 
 ## Tests
 
 ## Questions
 # For more information contact me:
-- GitHub: https://github.com/asdf  
+- GitHub: https://github.com/sdaf  
 - My email: asdf

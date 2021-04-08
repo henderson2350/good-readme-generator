@@ -2,7 +2,6 @@
 const inquirer = require("inquirer")
 const fs = require("fs")
 
-var licenseType = ""
 inquirer
     .prompt(
         [{
@@ -68,10 +67,10 @@ ${response.description}
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [License] (#license)
-4. [Contributing] (#contributing)
-4. [Tests] (#tests)
-5. [Questions] (#questions)
+3. [License](#license)
+4. [Contributing](#contributing)
+4. [Tests](#tests)
+5. [Questions](#questions)
 
 ## Installation
 
@@ -79,7 +78,7 @@ ${response.description}
 ${response.usage}
 
 ## License
-License type: ${licenseType}
+License type: ${response.license}
 
 ## Contributing
 ${response.contributors}
