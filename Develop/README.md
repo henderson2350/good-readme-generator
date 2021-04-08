@@ -1,8 +1,8 @@
-# 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Nothing
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
-
+no thank you
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -16,17 +16,17 @@
 
 
 ## Usage
-
+it's cool
 
 ## License
-License type: APACE 2.0
+License type: GPL 3.0
 
 ## Contributing
-
+none
 
 ## Tests
 
 ## Questions
 For more information contact me:
-- [GitHub](https://github.com/)  
-- My email: 
+- [GitHub](https://github.com/henderson2350)  
+- My email: henderson2350@gmail.com

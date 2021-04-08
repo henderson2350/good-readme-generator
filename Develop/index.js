@@ -133,6 +133,117 @@ For more information contact me:
 - [GitHub](https://github.com/${response.username})  
 - My email: ${response.email}`
     }
+
+    if (response.license === "GPL 3.0") {
+        var licenseLink = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+        
+        return `# ${response.project}
+${licenseLink}
+
+## Description
+${response.description}
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+4. [Tests](#tests)
+5. [Questions](#questions)
+
+## Installation
+${response.installation}
+
+## Usage
+${response.usage}
+
+## License
+License type: ${response.license}
+
+## Contributing
+${response.contributors}
+
+## Tests
+
+## Questions
+For more information contact me:
+- [GitHub](https://github.com/${response.username})  
+- My email: ${response.email}`
+    }
+
+    if (response.license === "BSD 3") {
+        var licenseLink = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+        
+        return `# ${response.project}
+${licenseLink}
+
+## Description
+${response.description}
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+4. [Tests](#tests)
+5. [Questions](#questions)
+
+## Installation
+${response.installation}
+
+## Usage
+${response.usage}
+
+## License
+License type: ${response.license}
+
+## Contributing
+${response.contributors}
+
+## Tests
+
+## Questions
+For more information contact me:
+- [GitHub](https://github.com/${response.username})  
+- My email: ${response.email}`
+    }
+
+    if (response.license === "None") {
+        var licenseLink = "";
+        
+        return `# ${response.project}
+${licenseLink}
+
+## Description
+${response.description}
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+4. [Tests](#tests)
+5. [Questions](#questions)
+
+## Installation
+${response.installation}
+
+## Usage
+${response.usage}
+
+## License
+License type: ${response.license}
+
+## Contributing
+${response.contributors}
+
+## Tests
+
+## Questions
+For more information contact me:
+- [GitHub](https://github.com/${response.username})  
+- My email: ${response.email}`
+    }
 }
 
 
