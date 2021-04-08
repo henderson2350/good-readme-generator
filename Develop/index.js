@@ -29,7 +29,18 @@ inquirer
             message: "What kind of license should your project have?",
             name: "license",
             choices: ["MIT","APACE 2.0", "GPL 3.0", "BSD 3", "None"],
+        },
+        {
+            type: "input",
+            message: "Give brief instructions to the user for using your project.",
+            name: "usage"
+        },
+        {
+            type: "input",
+            message: "Please list any collaborators and their github usernames.",
+            name: "contributors"
         }
+
     
     ]
     ) .then((response) => {
@@ -44,19 +55,28 @@ inquirer
 const pageContent = (response) => 
 `# ${response.project}
 
-# Description
+## Description
 ${response.description}
+
 # Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License] (#license)
+4. [Tests] (#tests)
+5. [Questions] (#questions)
 
-# Installation
+## Usage
+${response.usage}
 
-# Usage
+## License
+License type: ${response.license}
 
-# License
+## Contributing
+${response.contributors}
 
-# Contributing
+## Tests
 
-# Tests
-
-# Questions
-${response.username}`
+## Questions
+For more information contact me:
+GitHub: https://github.com/${response.username}
+My email: ${response.email}`
