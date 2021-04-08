@@ -1,8 +1,8 @@
-# nothign
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# nodez
+[![License: APACE 2.0](https://img.shields.io/badge/License-APACE 2.0-yellow.svg)](https://opensource.org/licenses/APACE 2.0)
 
 ## Description
-asdf
+its cool
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -15,17 +15,17 @@ asdf
 ## Installation
 
 ## Usage
-a;sldkjf;alskdjf
+nah
 
 ## License
-License type: MIT
+License type: APACE 2.0
 
 ## Contributing
-a;sldfkj;asldkfj
+none
 
 ## Tests
 
 ## Questions
 # For more information contact me:
-- GitHub: https://github.com/henderson  
-- My email: henderson
+- GitHub: https://github.com/henderson2350  
+- My email: henderson2350@gmail.com
