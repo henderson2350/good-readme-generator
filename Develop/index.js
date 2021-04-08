@@ -2,6 +2,7 @@
 const inquirer = require("inquirer")
 const fs = require("fs")
 
+var licenseType = ""
 inquirer
     .prompt(
         [{
@@ -46,15 +47,20 @@ inquirer
     ) .then((response) => {
         console.log(response);
         const readMePageContent = pageContent(response)
+        licenseType = response.license
+        if (licenseType === "MIT") {
+            licenseLink = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+            console.log(licenseLink)
+        }
 
         fs.writeFile("README.md", readMePageContent, err =>
         err ? console.log(err) : console.log("Succesfully created README.md"))
     })
 
 
-const pageContent = (response) => 
+const pageContent = (response, licenseLink) =>
 `# ${response.project}
-[![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-yellow.svg)](https://opensource.org/licenses/${response.license})
+${licenseLink}
 
 ## Description
 ${response.description}
@@ -73,7 +79,7 @@ ${response.description}
 ${response.usage}
 
 ## License
-License type: ${response.license}
+License type: ${licenseType}
 
 ## Contributing
 ${response.contributors}
