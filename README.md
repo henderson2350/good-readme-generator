@@ -2,7 +2,7 @@
 
 
 ## Description
-This application allows users to log into a blog website and create posts. They can also view other people's posts on their homepage, where there is a feed.
+This project is an inline command application. It prompts users to answer questions about their Github project, and then generates a fully-formatted ReadMe for them to add to their project.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -13,16 +13,15 @@ This application allows users to log into a blog website and create posts. They 
 5. [Questions](#questions)
 
 ## Installation
-Visit the deployed link to the site at https://dry-beyond-32485.herokuapp.com/
+
 
 ## Usage
-Simply sign up using the homepage when you visit the site. Once you log in, create posts using the create posts button on the user's dashboard.
+
 
 ## License
-License type: None
 
 ## Contributing
-None
+
 
 ## Tests
 
