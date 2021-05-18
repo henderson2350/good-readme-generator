@@ -1,4 +1,4 @@
-# Tech Blog
+# ReadME Generator
 
 
 ## Description
